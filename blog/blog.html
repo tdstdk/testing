@@ -1,0 +1,920 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+  <link rel="stylesheet" href="../site/css/normalize.css">
+
+  <link rel="apple-touch-icon" sizes="180x180" href="../favicon/apple-touch-icon.png">
+  <link rel="icon" type="image/png" sizes="32x32" href="../favicon/favicon-32x32.png">
+  <link rel="icon" type="image/png" sizes="16x16" href="../favicon/favicon-16x16.png">
+  <link rel="manifest" href="../favicon/site.webmanifest">
+  <link rel="mask-icon" href="../favicon/safari-pinned-tab.svg" color="#008000">
+  <meta name="msapplication-TileColor" content="#008000">
+  <meta name="theme-color" content="#ffffff">
+
+  <link rel="stylesheet" href="../site/css/main.css">
+  <link rel="stylesheet" href="../site/css/icon.css">
+  <link rel="stylesheet" href="../site/skins/blue/css/colors.css">
+  <link rel="stylesheet" href="../site/skins/blue/css/svg.css">
+  <link rel="stylesheet" href="css/blog.css">
+  <link rel="stylesheet" href="css/form_180224.css">
+  <link rel="stylesheet" href="css/social-likes_birmanmy.css">
+  <link rel="stylesheet" type="text/css" href="../site/moduls/markitup_new/skins/markitup/style.css">
+  <link rel="stylesheet" type="text/css" href="../site/moduls/markitup_new/sets/bbcode/style.css">
+
+
+</head>
+<body>
+<div class="container color_link_hover">
+  <div class="visually-hidden">
+    <ul aria-label="Disability.ru" role="directory">
+      <li><a href='#menu_items' accesskey='r'>Разделы</a></li>
+      <li><a href='#menu_users' accesskey='m'>Пользователям</a></li>
+      <li><a href='#navigator' accesskey='n'>Навигатор</a></li>
+      <li><a href='#content' accesskey='s'>Содержание</a></li>
+    </ul>
+  </div>
+  <div class="banner1" aria-label="Реклама" role="complementary">
+    <img src="../site/pics/banner_1.png" alt="Реклама">
+  </div>
+  <div id="sticky" class="sticky-element">
+    <div class="sticky-anchor"></div>
+    <div class="sticky-content">
+      <div class="logo-header color_main_fon color_accent header">
+        <a href="#menu_main" class="main-nav__toggle modal_open" role="button">
+          <svg class="icon-svg color_icons icon-menu_item"><use xlink:href="../site/icons/id_icons.svg#icon-menu_item"></use></svg>
+          Открыть меню</a>
+        <div class="logo-link-wrapper">
+          <a href="index2.html" class="logo-img" title="Disability.ru">
+            <picture>
+              <source media="(min-width: 1024px)" srcset="../site/skins/blue/pics/svg/logo.svg">
+              <source media="(min-width: 768px)" srcset="../site/skins/blue/pics/svg/logo_tablet.svg">
+              <source media="(max-width: 767px)" srcset="../site/skins/blue/pics/svg/logo_mobile.svg">
+              <img class="logo-img" src="../site/skins/blue/pics/svg/logo.svg" alt="Логотип">
+            </picture>
+          </a>
+        </div>
+        <!--<button class="mail-input " type="button">-->
+        <!--<svg class="icon-svg color_icons icon-mail_bw"><use xlink:href="../site/icons/id_icons.svg#icon-mail_bw"></use></svg>-->
+        <!--Войти в почту</button>-->
+        <!--<a href="#menu_user" class="nav-user__toggle modal_open" type="button">-->
+        <!--<svg class="icon-svg color_icons icon-menu_user"><use xlink:href="../site/icons/id_icons.svg#icon-menu_user"></use></svg>-->
+        <!--Открыть меню</a>-->
+        <div class="input-user">
+          <a href="#menu_enter" class="input-links modal_open" role="button">
+            <div class="input-only">
+              <span class="link-input">Войти</span>
+              <span class="link-registration">Регистрация</span>
+            </div>
+            <svg class="icon-svg color_icons icon-login"><use xlink:href="../site/icons/id_icons.svg#icon-login"></use></svg>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="all-content">
+    <div class="content-right">
+      <div class="content-right-wrapper">
+        <div class="banner4" aria-label="Реклама" role="complementary">
+          <img src="../site/pics/banner_4.png" width="160" height="160" alt="Реклама">
+        </div>
+        <div class="nav-wrapper">
+          <div id="menu_main" class="main-nav nav-block color_border color_menu_fon modal-main-show modal_div">
+            <div class="main-nav-wrapper" aria-label="Разделы" role="navigation">
+              <a name="menu_items"></a><h3 id="group_menu_main" class="menu-title color_main_fon color_accent nav_border">Разделы</h3>
+              <ul class="main-nav-items nav" role="menu" aria-labelledby="group_menu_main">
+                <li class="main-nav_item" role="menuitem">
+                  <a class="nav_item" href="#">
+                    <svg class="icon-svg icon-svg-menu color_icons"><use xlink:href="../site/icons/id_icons.svg#icon-news_bw"></use></svg>
+                    <span class="nav_item-caption">Новости</span>
+                  </a>
+                </li>
+                <li class="main-nav_item" role="menuitem">
+                  <a class="nav_item" href="#">
+                    <svg class="icon-svg icon-svg-menu color_icons"><use xlink:href="../site/icons/id_icons.svg#icon-story_bw"></use></svg>
+                    <span class="nav_item-caption">Статьи</span>
+                  </a>
+                </li>
+                <li class="main-nav_item" role="menuitem">
+                  <a class="nav_item" href="#">
+                    <svg class="icon-svg icon-svg-menu color_icons"><use xlink:href="../site/icons/id_icons.svg#icon-links_bw"></use></svg>
+                    <span class="nav_item-caption">Ссылки</span>
+                  </a>
+                </li>
+                <li class="main-nav_item" role="menuitem">
+                  <a class="nav_item" href="#">
+                    <svg class="icon-svg icon-svg-menu color_icons"><use xlink:href="../site/icons/id_icons.svg#icon-org_bw"></use></svg>
+                    <span class="nav_item-caption">Организации</span>
+                  </a>
+                </li>
+                <li class="main-nav_item" role="menuitem">
+                  <a class="nav_item" href="#">
+                    <svg class="icon-svg icon-svg-menu color_icons"><use xlink:href="../site/icons/id_icons.svg#icon-work_bw"></use></svg>
+                    <span class="nav_item-caption">Биржа труда</span>
+                  </a>
+                </li>
+                <li class="main-nav_item" role="menuitem">
+                  <a class="nav_item" href="#">
+                    <svg class="icon-svg icon-svg-menu color_icons"><use xlink:href="../site/icons/id_icons.svg#icon-shopping_bw"></use></svg>
+                    <span class="nav_item-caption">Товары-услуги</span>
+                  </a>
+                </li>
+                <li class="main-nav_item" role="menuitem">
+                  <a class="nav_item" href="#">
+                    <svg class="icon-svg icon-svg-menu color_icons"><use xlink:href="../site/icons/id_icons.svg#icon-agency_bw"></use></svg>
+                    <span class="nav_item-caption">Знакомства</span>
+                  </a>
+                </li>
+                <li class="main-nav_item" role="menuitem">
+                  <a class="nav_item" href="#">
+                    <svg class="icon-svg icon-svg-menu color_icons"><use xlink:href="../site/icons/id_icons.svg#icon-blog_bw"></use></svg>
+                    <span class="nav_item-caption">Дневники</span>
+                  </a>
+                </li>
+                <li class="main-nav_item" role="menuitem">
+                  <a class="nav_item" href="#">
+                    <svg class="icon-svg icon-svg-menu color_icons"><use xlink:href="../site/icons/id_icons.svg#icon-forum_color"></use></svg>
+                    <span class="nav_item-caption nav-active">Форум</span>
+                  </a>
+                </li>
+                <li class="main-nav_item" role="menuitem">
+                  <a class="nav_item" href="#">
+                    <svg class="icon-svg icon-svg-menu color_icons"><use xlink:href="../site/icons/id_icons.svg#icon-chat_bw"></use></svg>
+                    <span class="nav_item-caption">Чат</span>
+                  </a>
+                </li>
+                <li class="main-nav_item" role="menuitem">
+                  <a class="nav_item" href="#">
+                    <svg class="icon-svg icon-svg-menu color_icons"><use xlink:href="../site/icons/id_icons.svg#icon-humor_bw"></use></svg>
+                    <span class="nav_item-caption">Юмор</span>
+                  </a>
+                </li>
+                <li class="main-nav_item" role="menuitem">
+                  <a class="nav_item" href="#">
+                    <svg class="icon-svg icon-svg-menu color_icons"><use xlink:href="../site/icons/id_icons.svg#icon-guest_bw"></use></svg>
+                    <span class="nav_item-caption">Гостевая книга</span>
+                  </a>
+                </li>
+                <li class="main-nav_item" role="menuitem">
+                  <a class="nav_item" href="#">
+                    <svg class="icon-svg icon-svg-menu color_icons"><use xlink:href="../site/icons/id_icons.svg#icon-partners_bw"></use></svg>
+                    <span class="nav_item-caption">Наши партнеры</span>
+                  </a>
+                </li>
+                <li class="main-nav_item" role="menuitem">
+                  <a class="nav_item" href="#">
+                    <svg class="icon-svg icon-svg-menu color_icons"><use xlink:href="../site/icons/id_icons.svg#icon-map_bw"></use></svg>
+                    <span class="nav_item-caption">Карта портала</span>
+                  </a>
+                </li>
+                <li class="main-nav_item" role="menuitem">
+                  <a class="nav_item" href="#">
+                    <svg class="icon-svg icon-svg-menu color_icons"><use xlink:href="../site/icons/id_icons.svg#icon-faq_bw"></use></svg>
+                    <span class="nav_item-caption">Вопрос-ответ</span>
+                  </a>
+                </li>
+                <li class="main-nav_item" role="menuitem">
+                  <a class="nav_item" href="#">
+                    <svg class="icon-svg icon-svg-menu color_icons"><use xlink:href="../site/icons/id_icons.svg#icon-write_adm_bw"></use></svg>
+                    <span class="nav_item-caption mail-admin">Написать админу</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="banner5" aria-label="Реклама" role="complementary">
+            <img src="../site/pics/banner_5.png" width="160" height="160" alt="Реклама">
+          </div>
+          <div id="menu_user" class="nav-user nav-block color_border color_menu_fon modal-user-show modal_div">
+            <div class="nav-user-wrapper" aria-label="Пользователям" role="navigation">
+              <a name="menu_users"></a><h3 id="group_menu_user" class="menu-title color_main_fon color_accent nav_border">Пользователям</h3>
+              <a href="#" class="user-name color_font">NicUserUnick</a>
+              <ul class="nav" role="menu" aria-labelledby="group_menu_user">
+                <li class="main-nav_item" role="menuitem">
+                  <a class="nav_item" href="#">
+                    <svg class="icon-svg icon-svg-menu color_icons"><use xlink:href="../site/icons/id_icons.svg#icon-mail_bw"></use></svg>
+                    <span class="nav_item-caption">Почта</span>
+                  </a>
+                </li>
+                <li class="main-nav_item" role="menuitem">
+                  <a class="nav_item" href="#">
+                    <svg class="icon-svg icon-svg-menu color_icons"><use xlink:href="../site/icons/id_icons.svg#icon-wall_bw"></use></svg>
+                    <span class="nav_item-caption">Отзывы</span>
+                  </a>
+                </li>
+                <li class="main-nav_item" role="menuitem">
+                  <a class="nav_item" href="#">
+                    <svg class="icon-svg icon-svg-menu color_icons"><use xlink:href="../site/icons/id_icons.svg#icon-search_bw"></use></svg>
+                    <span class="nav_item-caption">Пользователи</span>
+                  </a>
+                </li>
+                <li class="main-nav_item" role="menuitem">
+                  <a class="nav_item" href="#">
+                    <svg class="icon-svg icon-svg-menu color_icons"><use xlink:href="../site/icons/id_icons.svg#icon-dr_bw"></use></svg>
+                    <span class="nav_item-caption">Дни рождения</span>
+                  </a>
+                </li>
+                <li class="main-nav_item" role="menuitem">
+                  <a class="nav_item" href="#">
+                    <svg class="icon-svg icon-svg-menu color_icons"><use xlink:href="../site/icons/id_icons.svg#icon-online_bw"></use></svg>
+                    <span class="nav_item-caption">На портале</span>
+                  </a>
+                </li>
+                <li class="main-nav_item" role="menuitem">
+                  <a class="nav_item" href="#">
+                    <svg class="icon-svg icon-svg-menu color_icons"><use xlink:href="../site/icons/id_icons.svg#icon-show_new_bw"></use></svg>
+                    <span class="nav_item-caption">Новые</span>
+                  </a>
+                </li>
+                <li class="main-nav_item" role="menuitem">
+                  <a class="nav_item" href="#">
+                    <svg class="icon-svg icon-svg-menu color_icons"><use xlink:href="../site/icons/id_icons.svg#icon-edit_bw"></use></svg>
+                    <span class="nav_item-caption">Настройки</span>
+                  </a>
+                </li>
+                <li class="main-nav_item" role="menuitem">
+                  <a class="nav_item" href="#">
+                    <svg class="icon-svg icon-svg-menu color_icons"><use xlink:href="../site/icons/id_icons.svg#icon-rules_bw"></use></svg>
+                    <span class="nav_item-caption">Соглашение</span>
+                  </a>
+                </li>
+                <li class="main-nav_item" role="menuitem">
+                  <a class="nav_item" href="#">
+                    <svg class="icon-svg icon-svg-menu color_icons"><use xlink:href="../site/icons/id_icons.svg#icon-politika_konf_bw"></use></svg>
+                    <span class="nav_item-caption">Политика</span>
+                  </a>
+                </li>
+                <li class="main-nav_item" role="menuitem">
+                  <a class="nav_item" href="#">
+                    <svg class="icon-svg icon-svg-menu color_icons"><use xlink:href="../site/icons/id_icons.svg#icon-exit_bw"></use></svg>
+                    <span class="nav_item-caption">Выход</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+            <div class="decor"></div>
+            <div class="nav-admin-wrapper" aria-label="Администрация" role="navigation">
+              <a name="menu_admin"></a><h3 id="group_menu_admin" class="menu-title color_main_fon color_accent nav_border">Администрация</h3>
+              <ul class="nav" role="menu" aria-labelledby="group_menu_admin">
+                <li class="main-nav_item" role="menuitem">
+                  <a class="nav_item" href="#">
+                    <svg class="icon-svg icon-svg-menu color_icons"><use xlink:href="../site/icons/id_icons.svg#icon-marker"></use></svg>
+                    <span class="nav_item-caption">Новые данные</span>
+                  </a>
+                </li>
+                <li class="main-nav_item" role="menuitem">
+                  <a class="nav_item" href="#">
+                    <svg class="icon-svg icon-svg-menu color_icons"><use xlink:href="../site/icons/id_icons.svg#icon-marker"></use></svg>
+                    <span class="nav_item-caption">Почта админа</span>
+                  </a>
+                </li>
+                <li class="main-nav_item" role="menuitem">
+                  <a class="nav_item" href="#">
+                    <svg class="icon-svg icon-svg-menu color_icons"><use xlink:href="../site/icons/id_icons.svg#icon-marker"></use></svg>
+                    <span class="nav_item-caption">Юзеры</span>
+                  </a>
+                </li>
+                <li class="main-nav_item" role="menuitem">
+                  <a class="nav_item" href="#">
+                    <svg class="icon-svg icon-svg-menu color_icons"><use xlink:href="../site/icons/id_icons.svg#icon-marker"></use></svg>
+                    <span class="nav_item-caption">Online</span>
+                  </a>
+                </li>
+                <li class="main-nav_item" role="menuitem">
+                  <a class="nav_item" href="#">
+                    <svg class="icon-svg icon-svg-menu color_icons"><use xlink:href="../site/icons/id_icons.svg#icon-marker"></use></svg>
+                    <span class="nav_item-caption">Модераторы</span>
+                  </a>
+                </li>
+                <li class="main-nav_item" role="menuitem">
+                  <a class="nav_item" href="#">
+                    <svg class="icon-svg icon-svg-menu color_icons"><use xlink:href="../site/icons/id_icons.svg#icon-marker"></use></svg>
+                    <span class="nav_item-caption">Новости</span>
+                  </a>
+                </li>
+                <li class="main-nav_item" role="menuitem">
+                  <a class="nav_item" href="#">
+                    <svg class="icon-svg icon-svg-menu color_icons"><use xlink:href="../site/icons/id_icons.svg#icon-marker"></use></svg>
+                    <span class="nav_item-caption">Реклама</span>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="modal-content">
+          <div id="menu_enter" class="nav-block registration-block color_border color_menu_fon modal-content-show modal_div">
+            <button class="popup-close modal-content-close modal_close" type="button" title="Закрыть">
+              Закрыть</button>
+            <div class="registration-wrapper" aria-label="Вход/регистрация" role="navigation">
+              <div class="menu-title-wrap">
+                <a name="menu_registration"></a><h3 class="menu-title color_main_fon color_accent nav_border">Пользователям</h3>
+              </div>
+              <div class="registration">
+                <p class="registration-title">
+                  <svg class="icon-svg icon-svg-menu icon-svg-registration color_icons"><use xlink:href="../site/icons/id_icons.svg#icon-register_bw"></use></svg>
+                  <span class="registration-text">Регистрация</span>
+                </p>
+                <form class="form-registration" action="index2.html" method="post">
+                  <div class="form-registration-wrapper">
+                    <div class="form-group-wrapper">
+                      <div class="form-group">
+                        <label class="form-label" for="login-field">Логин:</label>
+                        <input class="form-field" id="login-field" type="text" name="login" required>
+                      </div>
+                      <div class="form-group">
+                        <label class="form-label" for="password-field">Пароль:</label>
+                        <input class="form-field" id="password-field" type="password" name="password-field" required>
+                      </div>
+                      <div class="form-group-checkbox">
+                        <div class="form-group form-group-blind">
+                          <input id="blind-field" type="checkbox" name="blind">
+                          <label for="blind-field">Для незрячих</label>
+                        </div>
+                        <div class="form-group">
+                          <input id="memorize-field" type="checkbox" name="memorize">
+                          <label for="memorize-field">Запомнить</label>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+                  <div class="btn-wrapper">
+                    <input class="btn btn-registration color_main_fon color_accent header" type="submit" name="button" value="Войти">
+                  </div>
+                </form>
+                <div class="registration-links">
+                  <a class="main-nav_item registration-link" href="#">Вспомнить пароль</a>
+                  <a class="main-nav_item registration-link" href="#">Соглашение</a>
+                  <a class="main-nav_item registration-link" href="#">Политика</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="nav-block-wrapper">
+          <div class="nav-block color_border color_menu_fon" aria-label="Поиск" role="complementary">
+            <a name="menu_search"></a><h3 class="menu-title color_main_fon color_accent nav_border">Поиск на портале</h3>
+            <form class="form" action="index2.html" method="post">
+              <div class="form-group form-search">
+                <input class="form-field" id="search-field" type="text" name="search-name">
+                <label for="search-field"></label>
+              </div>
+              <div class="btn-wrapper">
+                <input class="btn color_main_fon color_accent header" type="submit" name="button" value="Поиск">
+              </div>
+            </form>
+          </div>
+          <div class="nav-block color_border color_menu_fon" aria-label="Статистика" role="complementary">
+            <a name="menu_statistic"></a><h3 class="menu-title color_main_fon color_accent nav_border">Статистика</h3>
+            <p class="statistics">Друзей <span>8963</span></p>
+            <p class="statistics-online">Сейчас на портале</p>
+            <p class="statistics">Друзей <span>32</span></p>
+            <p class="statistics">В чате <span>9</span></p>
+            <p class="statistics">Гостей <span>36</span></p>
+          </div>
+        </div>
+        <div class="banner6" aria-label="реклама" role="complementary">
+          <img src="../site/pics/banner_6.png" width="160" height="600" alt="Реклама">
+        </div>
+      </div>
+      <div class="qr-code" aria-label="Счетчики" role="contentinfo">
+        <script type="text/javascript">
+            document.write("<img class='qr-code-img' src='https://chart.googleapis.com/chart?cht=qr&chs=150x150&choe=UTF-8&chl="+location.href+"' title='QR Barcode - адрес страницы для мобильных устройств' alt='QR Barcode - адрес страницы для мобильных устройств'>");
+        </script>
+        <img class="qr-code-img" src="../site/pics/barcode.png" width="89" height="122" alt="Статистика">
+      </div>
+    </div>
+    <div class="content-left">
+
+      <!--Основной контент-->
+
+      <div class="main-content color_content_fon color_main_content" aria-label="содержание" role="main">
+        <div class="breadcrumbs color_link_hover">
+          <h1 class="color_link_hover">
+            <a class="breadcrumbs-item" href="https://www.disability.ru" aria-label="Disability.ru">
+              <svg class="icon-svg icon-svg-breadcrumbs color_icons"><use
+                      xlink:href="../site/icons/id_icons.svg#icon-navigator"></use></svg>
+            </a>
+            <a name="navigator" class="breadcrumbs-item" href="#">/ Дневники</a>
+          </h1>
+        </div>
+        <div class="banner2-3 banner2" aria-label="Реклама" role="complementary">
+          <img src="../site/pics/banner_2.png" width="730" height="90" alt="Реклама">
+        </div>
+
+        <a name="content"></a>
+        <div class="m-c-w">
+
+          <div class="content-block" id="fullblog">
+            <div id="bbab" style="text-align: right;">
+              <a href="#" onclick="return DelBlog('4969');" class="add_link">
+                <svg class="icon-svg icon-svg-blog color_icons"><title>Удалить дневник</title>
+                  <use xlink:href="svg/id_icons.svg#icon-blog_del"></use></svg>
+              </a>
+            </div>
+            <div class="author-blog-header">
+              <div class="blog-name">
+                <h4 class="blog-topic-name blog-topic-title">
+                  <a href="#">Творчество
+                    <div class="blog-topic-name blog-topic-description" aria-label="Описание">Декупаж Декупаж Декупаж
+                      Декупаж Декупаж
+                      Декупаж
+                      slgkhf dlvkzhzk Декупаж Декупаж Декупаж Декупаж Декупаж Декупаж
+                      slgkhf dlvkzhzk
+                    </div>
+                  </a>
+                </h4>
+                <ul class="blog-topic-statistics" aria-label="Статистика">
+                  <li>
+                    <span class="statistic-item">Постов:</span>
+                    <span class="statistic-number"> 19</span>
+                  </li>
+                  <li>
+                    <span class="statistic-item">Ответов:</span>
+                    <span class="statistic-number"> 175</span>
+                  </li>
+                  <li>
+                    <span class="statistic-item">Рейтинг:</span>
+                    <span class="statistic-number"> 13</span>
+                  </li>
+                  <li>
+                    <span class="statistic-item">Подпис.:</span>
+                    <span class="statistic-number"> 1</span>
+                  </li>
+                </ul>
+              </div>
+              <div class="author-blog">
+                <img class="author-blog-img" src="https://www.disability.ru/member/picture.php?pic=67244" alt="Автор">
+                <a href="../member/info_id.php?id=67244" target="_blank" class="link-name">
+                  <div class="author-blog-nic">
+                    <p class="author-blog-info"><strong>Тамара</strong></p>
+                    <p class="author-blog-info">Георгиевск, Россия</p>
+                  </div>
+                </a>
+              </div>
+            </div>
+
+            <div class="add-description">
+              <span class="post_two" id="bscr">
+                <a href="#" onclick="return Subscr('4969','yes');" class="add_link">
+                  <svg class="icon-svg icon-svg-blog color_icons"><use
+                    xlink:href="svg/id_icons.svg#icon-s_p"></use></svg> Добавить в подписку
+                </a>
+              </span>
+            </div>
+            <div id="infordat"></div>
+            <div id="blog" class="blog-post-wrapper">
+              <ul class="blog" role="list">
+                <li id="post_42392" class="blog-post" role="listitem">
+                  <div  class="post-title-wrapper">
+                    <h5 class="post-title">
+                      <a href="#">Помогите разобраться с планшетом</a>
+                    </h5>
+                    <a href="#" onclick="return DelAns('458729');" class="add_link">
+                      <svg
+                        class="icon-svg icon-svg-blog color_icons"><title>Удалить пост</title><use
+                        xlink:href="svg/id_icons.svg#icon-post_del"></use></svg>
+                    </a>
+                  </div>
+                  <span>
+                    <a href="blog.php?id_blog=4969&amp;post=42392"  class="post-data" title="ссылка на пост"
+                       target="_blank">
+                      13&nbsp;май&nbsp;2019 22:01 ::.</a>
+                    <a href="blog.php?id_blog=4969&amp;categ=154" class="post-data"
+                       alt="читать все посты данной категории в этом дневнике" title="читать все посты данной категории в этом дневнике">
+                       Прочие средства связи
+                    </a>
+                  </span>
+                  <div id="post_roll_42392">
+                    <div id="sfp_42392" class="post-text" aria-label="текст">всем привет ситуация в следующем: есть планшет, в нем
+                      есть симка, но написано,
+                      что ее нет,
+                      не отображается в общем. планшет существует чисто для просмотра ютуба и уже полгода работает от вай-фая.
+                      счет на эту планшетную симку ни разу не пополнялся, я даже не знаю какая там задолжность и из-за того,
+                      что симки как бы нет, не могу зайти в личный кабинет. внимание вопросулыбка долго еще так можно пользоваться
+                      планшетом в том же режиме, то есть по вай-фаю без пополнения счета? или все-таки это накроется?
+                      может у кого-то также было? буду благодарна за комментарииулыбка
+                    </div>
+
+                    <div class="comment-block">
+                      <h5 class="visually-hidden">Ответы</h5>
+                      <h6 class="author-comment">
+                        <div class="author-comment-wrap">
+                          <span style="background-image: url('../blog/photo/image-1.png')"
+                              class="photo-author-comment"></span>
+                          <div class="author-date">
+                            <a href="#" class="author-comment-nic">Weter</a><span class="date-comment">28 май 2019 22:17</span>
+                            <div class="corrected">исправлено 13 май 2019 22:19</div>
+                          </div>
+                        </div>
+                        <span class="icon-delete">
+                          <a href="#" onclick="return DelAns('458729');" class="add_link">
+                            <svg
+                              class="icon-svg icon-svg-blog color_icons"><title>Удалить ответ</title><use
+                              xlink:href="svg/id_icons.svg#icon-answer_del"></use></svg>
+                          </a>
+                        </span>
+                      </h6>
+
+                      <div class="comment-topic-wrapper">
+                        <div class="comment-topic">
+                          <div class="topic-text" aria-label="текст">
+                          <span>Физически симка есть? В телефон обычный вставьте а проверьте баланс СМС командами.
+                          Если и там ноль признаков жизни, а номер не хочется терять, обратитесь к мобильному оператору и поменяйте симку, если конечно будете на планшете использовать МОБИЛЬНЫЙ интернет.
+                          в какой личный кабинет не можете зайти? Мобильного оператора или в аккаунт гугла? который был (если был, конечно) заведён при первом включении планшета?</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="comment-block">
+                      <h6 class="author-comment">
+                        <div class="author-comment-wrap">
+                          <span style="background-image: url('../blog/photo/image-2.jpg')"
+                                class="photo-author-comment"></span>
+                          <div class="author-date">
+                            <a href="#" class="author-comment-nic">Тамара</a><span class="date-comment">28 май 2019 22:23</span>
+                          </div>
+                        </div>
+                        <span class="icon-delete">
+                          <a href="#" onclick="return DelAns('458729');" class="add_link">
+                            <svg
+                              class="icon-svg icon-svg-blog color_icons"><title>Удалить ответ</title><use
+                              xlink:href="svg/id_icons.svg#icon-answer_del"></use></svg>
+                          </a>
+                        </span>
+                      </h6>
+                      <div class="comment-topic-wrapper">
+                        <div class="comment-topic">
+                          <div class="topic-text" aria-label="текст">
+                          <span>Weter, точно!!!! можно же через телефон симку проверить, спасибо!! все оказалось проще, чем я
+                            думала)) да, в лич.кабинет мобильного оператора не могу зайти.</span>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+
+                    <div class="post">
+                      <div class="text_post">
+                        <div id="fta_42392"><div align="center">
+                          <div class="fieldset">
+                            <h6 class="answer-title">Текст ответа</h6>
+                              <form id="answer_form">
+                                <div>
+                                  <div id="markItUpAns_text" class="markItUp">
+                                    <div class="markItUpContainer"><div class="markItUpHeader">
+                                      <ul class="edit-block-buttons">
+                                        <li class="markItUpButton markItUpButton1 bold">
+                                          <a href="" accesskey="B" title="Жирный [Ctrl+B]">Жирный</a>
+                                        </li>
+                                        <li class="markItUpButton markItUpButton2 italic">
+                                          <a href="" accesskey="I" title="Курсив [Ctrl+I]">Курсив</a>
+                                        </li>
+                                        <li class="markItUpButton markItUpButton3 underline">
+                                          <a href="" accesskey="U" title="Подчеркнутый [Ctrl+U]">Подчеркнутый</a>
+                                        </li>
+                                        <li class="markItUpSeparator">---------------</li>
+                                        <li class="markItUpButton markItUpButton4 picture">
+                                          <a href="" accesskey="P" title="Картинка [Ctrl+P]">Картинка</a>
+                                        </li>
+                                        <li class="markItUpButton markItUpButton5 link">
+                                          <a href="" accesskey="L" title="Ссылка [Ctrl+L]">Ссылка</a>
+                                        </li>
+                                        <li class="markItUpButton markItUpButton6 video">
+                                          <a href="" accesskey="F" title="Видео [Ctrl+F]">Видео</a>
+                                        </li>
+                                        <li class="markItUpButton markItUpButton7 audio">
+                                          <a href="" accesskey="A" title="Аудио [Ctrl+A]">Аудио</a>
+                                        </li>
+                                        <li class="markItUpSeparator">---------------</li>
+                                        <li class="markItUpButton markItUpButton8 fonts markItUpDropMenu">
+                                          <a href="" accesskey="S" title="Размер текста [Ctrl+S]">Размер текста</a>
+                                          <ul style="display: none;">
+                                            <li class="markItUpButton markItUpButton8-1 ">
+                                              <a href="" title="большой">большой</a>
+                                            </li>
+                                            <li class="markItUpButton markItUpButton8-2 ">
+                                              <a href="" title="крупный">крупный</a>
+                                            </li>
+                                            <li class="markItUpButton markItUpButton8-3 ">
+                                              <a href="" title="средний">средний</a>
+                                            </li>
+                                            <li class="markItUpButton markItUpButton8-4 ">
+                                              <a href="" title="мелкий">мелкий</a>
+                                            </li>
+                                          </ul>
+                                        </li>
+                                        <li class="markItUpSeparator">---------------</li>
+                                        <li class="markItUpButton markItUpButton9 list-bullet">
+                                          <a href="" accesskey="M" title="Ненумерованный список [Ctrl+M]">Ненумерованный список</a>
+                                        </li>
+                                        <li class="markItUpButton markItUpButton10 list-numeric">
+                                          <a href="" accesskey="N" title="Нумерованный список [Ctrl+N]">Нумерованный список</a>
+                                        </li>
+                                        <li class="markItUpButton markItUpButton11 list-item">
+                                          <a href="" accesskey="J" title="Пункт списка [Ctrl+J]">Пункт списка</a>
+                                        </li>
+                                        <li class="markItUpSeparator">---------------</li>
+                                        <li class="markItUpButton markItUpButton12 quotes">
+                                          <a href="" accesskey="Q" title="Цитата [Ctrl+Q]">Цитата</a>
+                                        </li>
+                                        <li class="markItUpButton markItUpButton13 code">
+                                          <a href="" title="Код">Код</a>
+                                        </li>
+                                        <li class="markItUpSeparator">---------------</li>
+                                        <li class="markItUpButton markItUpButton14 palette markItUpDropMenu">
+                                          <a href="" title="Цвет текста">Цвет текста</a>
+                                          <ul>
+                                            <li class="markItUpButton markItUpButton14-1 col1-1">
+                                              <a href="" title="светло-желтый">светло-желтый</a>
+                                            </li>
+                                            <li class="markItUpButton markItUpButton14-2 col1-2">
+                                              <a href="" title="желтый">желтый</a>
+                                            </li>
+                                            <li class="markItUpButton markItUpButton14-3 col1-3">
+                                              <a href="" title="темно-желтый">темно-желтый</a>
+                                            </li>
+                                            <li class="markItUpButton markItUpButton14-4 col2-1">
+                                              <a href="" title="светло-оранжевый">светло-оранжевый</a>
+                                            </li>
+                                            <li class="markItUpButton markItUpButton14-5 col2-2">
+                                              <a href="" title="оранжевый">оранжевый</a>
+                                            </li>
+                                            <li class="markItUpButton markItUpButton14-6 col2-3">
+                                              <a href="" title="темно-оранжевый">темно-оранжевый</a>
+                                            </li>
+                                            <li class="markItUpButton markItUpButton14-7 col3-1">
+                                              <a href="" title="светло-коричневый">светло-коричневый</a>
+                                            </li>
+                                            <li class="markItUpButton markItUpButton14-8 col3-2">
+                                              <a href="" title="коричневый">коричневый</a>
+                                            </li>
+                                            <li class="markItUpButton markItUpButton14-9 col3-3">
+                                              <a href="" title="темно-коричневый">темно-коричневый</a>
+                                            </li>
+                                            <li class="markItUpButton markItUpButton14-10 col4-1">
+                                            <a href="" title="светло-зеленый">светло-зеленый</a>
+                                            </li>
+                                            <li class="markItUpButton markItUpButton14-11 col4-2">
+                                              <a href="" title="зеленый">зеленый</a>
+                                            </li>
+                                            <li class="markItUpButton markItUpButton14-12 col4-3">
+                                              <a href="" title="темно-зеленый">темно-зеленый</a>
+                                            </li>
+                                            <li class="markItUpButton markItUpButton14-13 col5-1">
+                                              <a href="" title="светло-синий">светло-синий</a>
+                                            </li>
+                                            <li class="markItUpButton markItUpButton14-14 col5-2">
+                                              <a href="" title="синий">синий</a>
+                                            </li>
+                                            <li class="markItUpButton markItUpButton14-15 col5-3">
+                                              <a href="" title="темно-синий">темно-синий</a>
+                                            </li>
+                                            <li class="markItUpButton markItUpButton14-16 col6-1">
+                                              <a href="" title="светло-фиолетовый">светло-фиолетовый</a>
+                                            </li>
+                                            <li class="markItUpButton markItUpButton14-17 col6-2">
+                                              <a href="" title="фиолетовый">фиолетовый</a>
+                                            </li>
+                                            <li class="markItUpButton markItUpButton14-18 col6-3">
+                                              <a href="" title="темно-фиолетовый">темно-фиолетовый</a>
+                                            </li>
+                                            <li class="markItUpButton markItUpButton14-19 col7-1">
+                                              <a href="" title="светло-красный">светло-красный</a>
+                                            </li>
+                                            <li class="markItUpButton markItUpButton14-20 col7-2">
+                                              <a href="" title="красный">красный</a>
+                                            </li>
+                                            <li class="markItUpButton markItUpButton14-21 col7-3">
+                                              <a href="" title="темно-красный">темно-красный</a>
+                                            </li>
+                                            <li class="markItUpButton markItUpButton14-22 col8-1">
+                                              <a href="" title="белый">белый</a>
+                                            </li>
+                                            <li class="markItUpButton markItUpButton14-23 col8-2">
+                                              <a href="" title="пепельный">пепельный</a>
+                                            </li>
+                                            <li class="markItUpButton markItUpButton14-24 col8-3">
+                                              <a href="" title="светло-серый">светло-серый</a>
+                                            </li>
+                                            <li class="markItUpButton markItUpButton14-25 col9-1">
+                                              <a href="" title="серый">серый</a>
+                                            </li>
+                                            <li class="markItUpButton markItUpButton14-26 col9-2">
+                                              <a href="" title="темно-серый">темно-серый</a>
+                                            </li>
+                                            <li class="markItUpButton markItUpButton14-27 col9-3">
+                                              <a href="" title="черный">черный</a>
+                                            </li>
+                                          </ul>
+                                        </li>
+                                        <li class="markItUpButton markItUpButton15 clean">
+                                          <a href="" accesskey="E" title="Очистить код [Ctrl+E]">Очистить код</a>
+                                        </li>
+                                        <li class="markItUpButton markItUpButton16 preview">
+                                          <a href="" accesskey="W" title="Предпросмотр [Ctrl+W]">Предпросмотр</a>
+                                        </li>
+                                      </ul>
+                                    </div>
+                                      <textarea id="ans_text" cols="50" rows="5" name="ans_text" class="markItUpEditor"></textarea>
+                                      <div class="markItUpFooter"><div class="markItUpResizeHandle"></div>
+                                      </div>
+                                    </div>
+                                  </div>
+                                </div>
+                                <input type="hidden" name="id" value="42392">
+                                <div>
+                                  <input type="button" value="Отправить" class="btn_in_item" onclick="submitAnswer(42392)">
+                                </div>
+                              </form>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="post_end">
+                        <div class="post-wrapper">
+                          <span class="end_line" id="end_42392">
+                            <span id="post_ba_42392" style="display: none;">
+                              <a href="#" onclick="return ShowAnswer(42392,0,'write');" class="add_link">
+                                <svg class="icon-svg icon-svg-blog color_icons"><use
+                                      xlink:href="svg/id_icons.svg#icon-answer_all"></use></svg> Читать ответы
+                              </a>
+                            </span>
+                            <span id="post_bf_42392">
+                              <a href="#" onclick="return ShowForm({id:42392});" class="add_link">
+                                <svg
+                                  class="icon-svg icon-svg-blog color_icons"><use
+                                  xlink:href="svg/id_icons.svg#icon-answer_new"></use></svg> Ответить
+                              </a>
+                            </span>
+                          </span>
+                          <div class="comment_info">
+                            <span id="post_bac_42392" style="display: none">
+                            <svg
+                              class="icon-svg icon-svg-blog color_icons"><use
+                              xlink:href="svg/id_icons.svg#icon-answer_all"></use></svg> Ответы&nbsp;отключены
+                            </span>
+                            <span id="post_bсс_42392" style="display: none">
+                              <svg
+                                class="icon-svg icon-svg-blog color_icons"><use
+                                xlink:href="svg/id_icons.svg#icon-answer_new"></use></svg>
+                              Комментирование&nbsp;отключено
+                            </span>
+                          </div>
+                        </div>
+                        <div class="post_end-wrap">
+                          <span id="post_rfbtn_42392" style="">
+                            <span class="post_rbtn_42392">
+                              <a href="#" onclick="return RollPost('42392');">
+                                <svg class="icon-svg icon-svg-blog color_icons"><title>Свернуть</title><use
+                                  xlink:href="svg/id_icons.svg#icon-up"></use></svg>
+                              </a>
+                            </span>
+                            <span class="post_rbtn_42392" style="display: none">
+                              <a href="#" onclick="return RollPost('42392');">
+                                <svg class="icon-svg icon-svg-blog color_icons"><use
+                                  xlink:href="svg/id_icons.svg#icon-down"><title>Развернуть</title></use></svg>
+                              </a>
+                            </span>
+                          </span>
+                          <span class="post_stat" style="font-style: italic;">рейтинг:
+                            <span id="ratpost_42392">3</span>&nbsp;
+                            <span id="rbp_42392">
+                              <a href="#" onclick="return RatingPost('42392','good');">
+                                <svg class="icon-svg icon-svg-blog color_icons"><title>Плюс</title><use
+                                  xlink:href="svg/id_icons.svg#icon-plus"></use></svg>
+                              </a>
+                              <a href="#" onclick="return RatingPost('42392','bad');">
+                                <svg
+                                  class="icon-svg icon-svg-blog color_icons"><title>Минус</title><use
+                                  xlink:href="svg/id_icons.svg#icon-minus"></use></svg>
+                              </a>
+                            </span>
+                             ответов:&nbsp;<span id="kolans_42392" style="margin-right: 5px">777</span>
+                            <span id="ans_subp_42392" style="position: relative;">
+                               <a href="#" onclick="return Subans('42392','yes');">
+                                 <svg
+                                   class="icon-svg icon-svg-blog color_icons"><title>Не сообщать об ответах</title><use
+                                   xlink:href="svg/id_icons.svg#icon-com_u"></use></svg>
+                               </a>
+                             </span>
+                             просмотров:&nbsp;<span id="kolsee_42392" style="margin-right: 5px">670</span>
+                             <span id="newans_42392" style="display: none;"></span>
+                            <div class="social-likes_single-w">
+                              <div id="share_42392" class="social-likes social-likes_single social-likes_vertical social-likes_visible social-likes_ready" data-url="https://www.disability.ru/blog/blog.php?id_blog=4969&amp;post=42392" data-title="помогите разобраться с планшетом" data-single-title="поделиться:">
+                                <div class="social-likes__single-container">
+                                  <div class="social-likes__widget social-likes__widget_vkontakte" title="Поделиться ссылкой во Вконтакте"><span class="social-likes__button social-likes__button_vkontakte"><span class="social-likes__icon social-likes__icon_vkontakte"></span>Вконтакте</span><span class="social-likes__counter social-likes__counter_vkontakte">0</span></div>
+                                  <div class="social-likes__widget social-likes__widget_odnoklassniki" title="Поделиться ссылкой в Одноклассниках"><span class="social-likes__button social-likes__button_odnoklassniki"><span class="social-likes__icon social-likes__icon_odnoklassniki"></span>Одноклассники</span><span class="social-likes__counter social-likes__counter_odnoklassniki">0</span></div>
+                                  <div class="social-likes__widget social-likes__widget_facebook" title="Поделиться ссылкой на Фейсбуке"><span class="social-likes__button social-likes__button_facebook"><span class="social-likes__icon social-likes__icon_facebook"></span>Facebook</span><span class="social-likes__counter social-likes__counter_facebook">0</span></div>
+                                  <div class="social-likes__widget social-likes__widget_twitter" title="Поделиться ссылкой в Твиттере"><span class="social-likes__button social-likes__button_twitter"><span class="social-likes__icon social-likes__icon_twitter"></span>Twitter</span><span class="social-likes__counter social-likes__counter_twitter">0</span></div>
+                                  <div class="social-likes__widget social-likes__widget_mailru" title="Поделиться ссылкой в Моём мире"><span class="social-likes__button social-likes__button_mailru"><span class="social-likes__icon social-likes__icon_mailru"></span>Мой мир</span><span class="social-likes__counter social-likes__counter_mailru">0</span></div>
+                                  <div class="social-likes__widget social-likes__widget_plusone" title="Поделиться ссылкой в Гугл-плюсе"><span class="social-likes__button social-likes__button_plusone"><span class="social-likes__icon social-likes__icon_plusone"></span>Google+</span><span class="social-likes__counter social-likes__counter_plusone">0</span></div>
+                                </div>
+                              </div>
+                              <div class="social-likes__widget social-likes__widget_single">
+                                <div class="social-likes__button social-likes__button_single">
+                                  <span class="social-likes__icon social-likes__icon_single"></span>поделиться:
+                                </div>
+                                <span class="social-likes__counter social-likes__counter_single">0</span>
+                              </div>
+                            </div>
+                          </span>
+                        </div>
+                      </div>
+                    </div>
+                  </div>
+
+<!--                <script type="text/javascript"> $(document).ready(function(){ $("#post_ba_"+42392).show(); $("#post_bp_"+42392).show();$('#share_42392').socialLikes({zeroes:'yes'});});</script>-->
+
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="banner2-3 banner3" aria-label="Реклама" role="complementary">
+        <img src="../site/pics/banner_3.png" alt="Реклама">
+      </div>
+    </div>
+  </div>
+
+  <footer class="footer-content">
+    <div class="footer-top color_main_fon color_accent footer">
+      <p class="copyright">Copyright &copy; 2002</p>
+    </div>
+    <a name="menu_alt"></a><div class="nav-footer color_menu_fon" aria-label="Дополнительное меню" role="complementary">
+    <ul class="nav-footer_items">
+      <li class="nav-footer_item">
+        <a href="#">Новости</a>
+      </li>
+      <li class="nav-footer_item">
+        <a href="#">Статьи</a>
+      </li>
+      <li class="nav-footer_item">
+        <a href="#">Ссылки</a>
+      </li>
+      <li class="nav-footer_item">
+        <a href="#">Организации</a>
+      </li>
+      <li class="nav-footer_item">
+        <a href="#">Биржа труда</a>
+      </li>
+      <li class="nav-footer_item">
+        <a href="#">Товары-услуги</a>
+      </li>
+      <li class="nav-footer_item">
+        <a href="#">Знакомства</a>
+      </li>
+      <li class="nav-footer_item">
+        <a href="#">Дневники</a>
+      </li>
+      <li class="nav-footer_item">
+        <a href="#">Форум</a>
+      </li>
+      <li class="nav-footer_item">
+        <a href="#">Чат</a>
+      </li>
+      <li class="nav-footer_item">
+        <a href="#">Юмор</a>
+      </li>
+      <li class="nav-footer_item">
+        <a href="#">Гостевая книга</a>
+      </li>
+      <li class="nav-footer_item">
+        <a href="#">Наши партнеры</a>
+      </li>
+      <li class="nav-footer_item">
+        <a href="#">Карта портала</a>
+      </li>
+      <li class="nav-footer_item">
+        <a href="#">Вопрос-ответ</a>
+      </li>
+      <li class="nav-footer_item">
+        <a href="#">Написать админу</a>
+      </li>
+      <li class="nav-footer_item">
+        <a href="#">Соглашение</a>
+      </li>
+      <li class="nav-footer_item">
+        <a href="#">Политика</a>
+      </li>
+    </ul>
+  </div>
+  </footer>
+</div>
+<div id="overlay" class="modal-overlay menu-overlay"></div>
+
+<script src="../site/js/js-redesign.js"></script>
+<script src="../site/js/svgxuse.js"></script>
+<script src="js/blog.js"></script>
+<!--<script src="js/social-likes.min.js"></script>-->
+<script type="text/javascript" src="../site/moduls/markitup_new/jquery.markitup.js"></script>
+<script type="text/javascript" src="../site/moduls/markitup_new/sets/bbcode/set.js"></script>
+
+</body>
+</html>
