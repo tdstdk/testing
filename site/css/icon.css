@@ -1,0 +1,203 @@
+.icon-svg {
+  display: inline-block;
+  width: 16px;
+  height: 16px;
+  stroke-width: 0;
+  stroke: currentColor;
+  fill: currentColor;
+}
+/*иконки можно модифицировать так:*/
+.icon-agency_bw {
+  width: 300px;
+  height: 300px;
+  fill: #009900;
+}
+.icon-forum_color {
+  width: 64px;
+  height: 64px;
+  fill: #009900;
+}
+
+
+.icon {
+  width: 16px;
+  height: 16px;
+  background-size: 100%;
+  display: inline-block;
+}
+
+.news_bw {
+  background-image: url("../../site/icons/news_bw.svg");
+}
+.news_color {
+  background-image: url("../../site/icons/news_color.svg");
+}
+.forum_bw {
+  background-image: url("../../site/icons/forum_bw.svg");
+}
+.forum_color {
+  background-image: url("../../site/icons/forum_color.svg");
+}
+.agency_bw {
+  background-image: url("../../site/icons/agency_bw.svg");
+}
+.agency_color {
+  background-image: url("../../site/icons/agency_color.svg");
+}
+.blog_bw {
+  background-image: url("../../site/icons/blog_bw.svg");
+}
+.blog_color {
+  background-image: url("../../site/icons/blog_color.svg");
+}
+.chat_bw {
+  background-image: url("../../site/icons/chat_bw.svg");
+}
+.chat_color {
+  background-image: url("../../site/icons/chat_color.svg");
+}
+.contest_bw {
+  background-image: url("../../site/icons/contest_bw.svg");
+}
+.contest_color {
+  background-image: url("../../site/icons/contest_color.svg");
+}
+.dr_bw {
+  background-image: url("../../site/icons/dr_bw.svg");
+}
+.dr_color {
+  background-image: url("../../site/icons/dr_color.svg");
+}
+.edit_bw {
+  background-image: url("../../site/icons/edit_bw.svg");
+}
+.edit_color {
+  background-image: url("../../site/icons/edit_color.svg");
+}
+.exit_bw {
+  background-image: url("../../site/icons/exit_bw.svg");
+}
+.exit_color {
+  background-image: url("../../site/icons/exit_color.svg");
+}
+.faq_bw {
+  background-image: url("../../site/icons/faq_bw.svg");
+}
+.faq_color {
+  background-image: url("../../site/icons/faq_color.svg");
+}
+.guest_bw {
+  background-image: url("../../site/icons/guest_bw.svg");
+}
+.guest_color {
+  background-image: url("../../site/icons/guest_color.svg");
+}
+.humor_bw {
+  background-image: url("../../site/icons/humor_bw.svg");
+}
+.humor_color {
+  background-image: url("../../site/icons/humor_color.svg");
+}
+.links_bw {
+  background-image: url("../../site/icons/links_bw.svg");
+}
+.links_color {
+  background-image: url("../../site/icons/links_color.svg");
+}
+.mail_bw {
+  background-image: url("../../site/icons/mail_bw.svg");
+}
+.mail_color {
+  background-image: url("../../site/icons/mail_color.svg");
+}
+.map_bw {
+  background-image: url("../../site/icons/map_bw.svg");
+}
+.map_color {
+  background-image: url("../../site/icons/map_color.svg");
+}
+.navigator {
+  background-image: url("../../site/icons/navigator.svg");
+}
+.online_bw {
+  background-image: url("../../site/icons/online_bw.svg");
+}
+.online_color {
+  background-image: url("../../site/icons/online_color.svg");
+}
+.org_bw {
+  background-image: url("../../site/icons/org_bw.svg");
+}
+.org_color {
+  background-image: url("../../site/icons/org_color.svg");
+}
+.partners_bw {
+  background-image: url("../../site/icons/partners_bw.svg");
+}
+.partners_color {
+  background-image: url("../../site/icons/partners_color.svg");
+}
+.politica_conf_bw {
+  background-image: url("../icons/politika_konf_bw.svg");
+}
+.politica_conf_color {
+  background-image: url("../icons/politika_konf_color.svg");
+}
+.register_bw {
+  background-image: url("../../site/icons/register_bw.svg");
+}
+.register_color {
+  background-image: url("../../site/icons/register_color.svg");
+}
+.rules_bw {
+  background-image: url("../../site/icons/rules_bw.svg");
+}
+.rules_color {
+  background-image: url("../../site/icons/rules_color.svg");
+}
+.search_bw {
+  background-image: url("../../site/icons/search_bw.svg");
+}
+.search_color {
+  background-image: url("../../site/icons/search_color.svg");
+}
+.shopping_bw {
+  background-image: url("../../site/icons/shopping_bw.svg");
+}
+.shopping_color {
+  background-image: url("../../site/icons/shopping_color.svg");
+}
+.show_new_bw {
+  background-image: url("../../site/icons/show_new_bw.svg");
+}
+.show_new_color {
+  background-image: url("../../site/icons/show_new_color.svg");
+}
+.story_bw {
+  background-image: url("../../site/icons/story_bw.svg");
+}
+.story_color {
+  background-image: url("../../site/icons/story_color.svg");
+}
+.wall_bw {
+  background-image: url("../../site/icons/wall_bw.svg");
+}
+.wall_color {
+  background-image: url("../../site/icons/wall_color.svg");
+}
+.work_bw {
+  background-image: url("../../site/icons/work_bw.svg");
+}
+.work_color {
+  background-image: url("../../site/icons/work_color.svg");
+}
+.write_admin_bw {
+  background-image: url("../icons/write_adm_bw.svg");
+}
+.write_admin_color {
+  background-image: url("../icons/write_adm_color.svg");
+}
+
+.nav_active_icon {
+  background-image: url("../../site/icons/forum_color.svg");
+}
