@@ -20,6 +20,7 @@
   <link rel="stylesheet" href="../site/skins/blue/css/colors.css">
   <link rel="stylesheet" href="../site/skins/blue/css/svg.css">
   <link rel="stylesheet" href="../site/moduls/jquery/css/jquery-ui.css">
+  <link rel="stylesheet" href="css/main_blog.css">
 
 </head>
 <body>
@@ -404,32 +405,32 @@
         <a name="content"></a>
         <div class="m-c-w">
           <h4 class="content-title">Дневники</h4>
-          <index><br><br><br>
+          <index>
             <div align="right" style = "padding-bottom: 5px"><a href="https://www.youtube.com/watch?v=zVp698QUEng" class="add_link" target="_blank"><img src="pics/question_grey.png" title="руководство пользователя" alt="руководство пользователя" border="0" height="18" width="17"></a></div>
-
+            <!--                <span style="float:right; text-align:right; padding-top: 8px; padding-right: 5px;">-->
+            <!--                  <form id='form_post' name='form_post' style='display: none'>-->
+            <!--                    <select name='categoria' class='form_field' id='categoria' onChange='ChgFullctg();'>-->
+            <!--                      <option value='-1' style='margin-bottom: 10px;'>=== Все категории ===</option>-->
+            <!--                      <option value='0' style='background-color: #F3F3F3; font-weight: bold;'>Дом</option>-->
+            <!--                      <option value='123'>&nbsp; &nbsp; &nbsp;Архитектура - 132</option>-->
+            <!--                      <option value='117'>&nbsp; &nbsp; &nbsp;Бытовая техника - 45</option>-->
+            <!--                      <option value='0' style='background-color: #F3F3F3; font-weight: bold;'>Интернет</option>-->
+            <!--                      <option value='128'>&nbsp; &nbsp; &nbsp;Web-программирование - 31</option>-->
+            <!--                      <option value='63'>&nbsp; &nbsp; &nbsp;Коллекции ссылок - 67</option>-->
+            <!--                      <option value='adm' style='background-color: #FFF0F0; font-weight: bolder; margin-top: 10px;'>=== Редактировать ===</option>-->
+            <!--                    </select>-->
+            <!--                  </form>-->
+            <!--                </span>-->
             <div id="tabs">
-                <span style="float:right; text-align:right; padding-top: 8px; padding-right: 5px;">
-                  <form id='form_post' name='form_post' style='display: none'>
-                    <select name='categoria' class='form_field' id='categoria' onChange='ChgFullctg();'>
-                      <option value='-1' style='margin-bottom: 10px;'>=== Все категории ===</option>
-                      <option value='0' style='background-color: #F3F3F3; font-weight: bold;'>Дом</option>
-                      <option value='123'>&nbsp; &nbsp; &nbsp;Архитектура - 132</option>
-                      <option value='117'>&nbsp; &nbsp; &nbsp;Бытовая техника - 45</option>
-                      <option value='0' style='background-color: #F3F3F3; font-weight: bold;'>Интернет</option>
-                      <option value='128'>&nbsp; &nbsp; &nbsp;Web-программирование - 31</option>
-                      <option value='63'>&nbsp; &nbsp; &nbsp;Коллекции ссылок - 67</option>
-                      <option value='adm' style='background-color: #FFF0F0; font-weight: bolder; margin-top: 10px;'>=== Редактировать ===</option>
-                    </select>
-                  </form>
-                </span>
-
               <ul>
+                <li><a href="toppostnew.html"><span>Нов в подписке</span></a></li>
+                <li><a href="topansnew.html"><span>Новое в ответах</span></a></li>
                 <li><a href="topb.html"><span>Топ</span></a></li>
-                <li><a href="top.php?type=tla"><span>Новые</span></a></li>
-                <li><a href="top.php?type=tla"><span>Обсуждаемые</span></a></li>
-                <li><a href="top.php?type=tla"><span>Статистика</span></a></li>
-                <li><a href="top.php?type=mys"><span>Моя подписка</span></a></li>
-                <li><a href="top.php?type=myb&sort=ans"><span>Мой дневник</span></a></li>
+                <li><a href="topnew.html"><span>Новые</span></a></li>
+                <li><a href="toptla.html"><span>Обсуждаемые</span></a></li>
+                <li class="tabs-none"><a href="topstat.html"><span>Статистика</span></a></li>
+                <li><a href="topsub.html"><span>Моя подписка</span></a></li>
+                <li><a href="topmy.html"><span>Мой дневник</span></a></li>
               </ul>
             </div>
           </index>
@@ -506,7 +507,7 @@
   </div>
   </footer>
 </div>
-<script type="text/javascript" src="../site/moduls/jquery/jquery-ui13.js"></script>
+<script type="text/javascript" src="../site/moduls/jquery/jquery-ui14.js"></script>
 <script type="text/javascript"  src="js/blog.js"></script>
 <script type="text/javascript" src="../site/js/js-redesign.js"></script>
 <script type="text/javascript" src="../site/js/svgxuse.js"></script>
